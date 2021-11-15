@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>War Game</title>
+</head>
+<body>
+    
+    <div id="top-bar">
+    <button id="new-deck">New Deck</button>
+    <h3>Remaining Cards:<span id="remaining-cards"> 0</span></h3> 
+    </div>
+
+   <section>
+    <h2 id="message-el">Game Of War</h2>
+    <div id="card-display">
+        <div class="card-container">
+            <h3>Computer Score:<span id="computer-el"> 0</span></h3> 
+        <div class="card-slot"></div>
+        </div>
+        <div class="card-container">
+            <h3>Player Score:<span id="player-el"> 0</span></h3>
+        <div class="card-slot"></div>
+        </div>
+    </div>
+    </section>
+    <button id="draw-cards">Draw</button>
+    <script src="./practice.js"></script>
+</body>
+</html>
