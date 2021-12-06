@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+height: 100vh;
+background-color: rgb(109, 85, 53);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container{
+  width: 20%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 100px;
+  min-width: 300px
+}
+
+/* Image */
+
+.header-image {
+  width: 100%;
+  background-color: aliceblue;
+ 
+}
+
+/* intro */
+
+main {
+  margin-top: -1em;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #1A1B21;
+  box-sizing: border-box;
+
+}
+
+/* intro titles */
+
+.intro-container {
+  text-align: center;
+}
+
+.intro-name {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.intro-title {
+  color:#F3BF99;
+  margin: 0;
+
+}
+
+.intro-website {
+  color: #F5F5F5;
+  font-size: 0.9rem;
+ 
+}
+
+.intro-website:hover {
+  color: yellow
+}
+
+.intro-container  a {
+  text-decoration: none;
+}
+
+
+/* intro social media */
+
+.social--main-container {
+ display: flex;
+}
+
+
+
+.social--main-container button {
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 5px;
+  margin: 0 1em;
+  font-weight: 800;
+  display: inline-flex;
+}
+
+i {
+  padding-right: 1em;
+}
+
+button:hover {
+  background-color: teal;
+  border: solid teal 1px;
+}
+
+
+.linkedin {
+  background-color: #5093E2;
+  color: white;
+}
+/* description */
+
+
+
+.description-main h4 {
+ color: #F5F5F5;
+ font-weight: 800;
+ font-size: 1.2rem;
+
+
+}
+
+.description-main p {
+  color: #F5F5F5;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  background-color: #161619;
+  color: #F5F5F5;
+}
+
+footer i {
+width: 25%;
+text-align: center;
+padding: 2em;
+box-sizing: border-box;
+}
+
+footer a {
+  color: #5093E2;
+  margin: 0 auto;
+}
+
+footer a:hover {
+  color: chartreuse;
+}

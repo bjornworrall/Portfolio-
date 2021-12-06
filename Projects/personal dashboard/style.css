@@ -59,6 +59,16 @@ section {
  max-width: 70%;
 }
 
+.description a {
+    text-transform: uppercase;
+    color: #f0e9e9;
+    font-size: 1.3rem;
+}
+
+.description a:hover {
+    color: greenyellow;
+}
+
 .languages {
     padding-right: 4em;
     width: 50%;
