@@ -4,7 +4,7 @@ import image from "./bjorn-img.jpg"
 function Header() {
     return (
         <header>
-            <img src={image} className="header-image"  />
+            <img src={image} className="header-image" alt="profile face"  />
         </header>
     )
 }
