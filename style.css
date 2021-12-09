@@ -422,7 +422,7 @@ nav {
 }
 
 .portfolio__img:hover,
-.portfolio__item:focus .portfolio__img {
+.portfolio__item .portfolio__img:focus {
     transform: scale(1.2);
     opacity: .5;
 }   
