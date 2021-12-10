@@ -405,6 +405,7 @@ nav {
 .portfolio__item {
     background: var(--clr-dark);
     overflow: hidden;
+ 
 }
 
 .portfolio__img {
@@ -415,6 +416,7 @@ nav {
         height: 300px;
         
 }
+
 
 .portfolio__item:focus {
     position: relative;
@@ -427,11 +429,28 @@ nav {
     opacity: .5;
 }   
 
-.Dashboard, .airbnb, .pac-man {
+.Dashboard, .airbnb, .pac-man, .war-game {
     display: flex;
     flex-direction: column;
-
+    max-width: 100%;
 }
+
+
+@media (max-width: 600px) {
+    .portfolio__img {
+    
+        height: auto;
+    }
+
+    .portfolio__item {
+       width: 75%;
+    }
+
+.portfolio  h3 {
+      margin-right: 4em;
+  }
+}
+
 
 /* footer */
   
