@@ -427,6 +427,11 @@ nav {
     opacity: .5;
 }   
 
+.Dashboard, .airbnb, .pac-man {
+    display: flex;
+    flex-direction: column;
+
+}
 
 /* footer */
   
