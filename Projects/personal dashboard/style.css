@@ -27,6 +27,7 @@ body {
 }
 
 
+
 #currency > p {
     font-size: 1.25rem;
     
@@ -48,6 +49,9 @@ section {
  
  
 }
+
+
+
 
 
 .info-header {
@@ -91,6 +95,17 @@ main {
 div.top {
     display: flex;
     justify-content: space-between;
+}
+
+@media (max-width:700px) {
+    div.top {
+        flex-direction: column;
+    }
+
+    div > .top {
+        width: 60%;
+    text-align: center;
+    }
 }
 
 #time {
@@ -146,4 +161,23 @@ div.top {
 
 #news > a:hover {
     color: yellowgreen;
+}
+
+
+@media (max-width: 700px) {
+    #currency {
+        flex-direction: column;
+    }
+
+    .crypt-img {
+        width: 15%;
+    }
+    #news {
+        max-width: 100%;
+    }
+    #prices {
+        display: inline-flex;
+        justify-content: space-between;
+        width: 100%;
+    }
 }
